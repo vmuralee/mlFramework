@@ -3,19 +3,10 @@
     "outpath": "/nfs/dust/cms/user/klundert/HiggsCPTauProject/DNNTuples/2019_5_3/CMSSW_9_4_9/src/Outputs/2019_6_21",
     "variables":{
         "mt": [
-            "pt_2",
-            "jpt_1",
-            "jpt_2",
-            "bpt_1",
-            "bpt_2",
             "njets",
-            "nbtag",
-            "m_sv",
-            "mt_1",
-            "pt_tt",
-            "mjj",
-            "jdeta",
-            "dijetpt"
+	    "dijetpt",
+	    "jpt_2",
+            "nbtag"
             ]
     },
     "shifted_variables": [],
