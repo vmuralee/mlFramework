@@ -3,10 +3,19 @@
     "outpath": "/nfs/dust/cms/user/klundert/HiggsCPTauProject/DNNTuples/2019_5_3/CMSSW_9_4_9/src/Outputs/2019_6_21",
     "variables":{
         "mt": [
+            "pt_2",
+            "jpt_1",
+            "jpt_2",
+            "bpt_1",
+            "bpt_2",
             "njets",
-	    "dijetpt",
-	    "jpt_2",
-            "nbtag"
+            "nbtag",
+            "m_sv",
+            "mt_1",
+            "pt_tt",
+            "mjj",
+            "jdeta",
+            "dijetpt"
             ]
     },
     "shifted_variables": [],
@@ -18,14 +27,14 @@
     },
     "lumi": 35.87,
       "class_weight":{
-        "ggh":     {"mt":204.7 },
-        "qqh":     {"mt":2274.6},
-        "ztt":     {"mt":1.8},
-        "zll":     {"mt":16.7},
-        "w":       {"mt":6.7},
-        "tt":      {"mt":14.8},
-        "ss":      {"mt":6.8},
-        "misc":    {"mt":65.3}
+        "ggh":     {"mt":2.5},
+        "qqh":     {"mt":54.6},
+        "ztt":     {"mt":82.0},
+        "zll":     {"mt":542.8},
+        "w":       {"mt":792.5},
+        "tt":      {"mt":1.8},
+        "ss":      {"mt":5389.4},
+        "misc":    {"mt":1738.0}
       },
 
     "target_values":{
