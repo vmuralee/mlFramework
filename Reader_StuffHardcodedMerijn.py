@@ -24,12 +24,14 @@ class Reader():
         self.processes = []
         self.needToAddVars = []
 
-        with open("conf/cuts_{0}.json".format(era),"r") as FSO:
+#       with open("conf/cuts_{0}.json".format(era),"r") as FSO:
+        with open("conf/cuts_2017.json".format(era),"r") as FSO:
             cuts = json.load(FSO)
             for c in cuts:
                 cuts[c] = self._assertChannel( cuts[c] )
             self.cut_dict = cuts
-        self.config_file = config_file
+#        self.config_file = config_file
+        self.config_file = "conf/global_config_mt_2017.json"
         self.config = self._flattenConfig()
 
 
@@ -347,9 +349,9 @@ class Reader():
             add = "addvar_Embedding"
 
         snowflakes = ["evt"]
-        #if "ggH" in sample_path:
-	#            snowflakes.append("THU*")
-        #    snowflakes.append("*NNLO*")
+#        if "ggH" in sample_path:
+#            snowflakes.append("THU*")
+#            snowflakes.append("*NNLO*")
 
         branches = list(set( self.config["variables"] + self.config[ "weights" ] + snowflakes + self.addvar ))
         if "EMB" in sample_path and "sf*" in branches:
@@ -378,4 +380,3 @@ def constStrLen(string):
 
 if __name__ == '__main__':
     main()
-
