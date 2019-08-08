@@ -1,6 +1,6 @@
 {
-    "path": "/nfs/dust/cms/user/klundert/HiggsCPTauProject/DNNTuples/2019_5_3/CMSSW_9_4_9/src/HtautauCP_mutau/Inputs/NTuples_mt_Klundert_V7_FixpfMETCorr2017", 
-    "outpath": "/nfs/dust/cms/user/klundert/HiggsCPTauProject/DNNTuples/2019_5_3/CMSSW_9_4_9/src/Outputs/2019_6_21",
+    "path": "/nfs/dust/cms/user/klundert/HiggsCPTauProject/DNNTuples/2019_5_3/CMSSW_9_4_9/src/HtautauCP_mutau/Inputs/NTuples_mt_Klundert_V8_ProperInitVal2017", 
+    "outpath": "/nfs/dust/cms/user/klundert/HiggsCPTauProject/DNNTuples/2019_5_3/CMSSW_9_4_9/src/Outputs/2019_8_1",
     "variables":{
         "mt": [
             "pt_2",
@@ -25,16 +25,16 @@
     "version":{
         "mt":"v5"
     },
-    "lumi": 35.87,
+    "lumi": 41.5,
       "class_weight":{
-        "ggh":     {"mt":2.5},
-        "qqh":     {"mt":54.6},
-        "ztt":     {"mt":82.0},
-        "zll":     {"mt":542.8},
-        "w":       {"mt":792.5},
-        "tt":      {"mt":1.8},
-        "ss":      {"mt":5389.4},
-        "misc":    {"mt":1738.0}
+        "ggh":     {"mt":3.4},
+        "qqh":     {"mt":74.8},
+        "ztt":     {"mt":84.6},
+        "zll":     {"mt":583.7},
+        "w":       {"mt":1085.2},
+        "tt":      {"mt":1.6},
+        "ss":      {"mt":8538.5},
+        "misc":    {"mt":19.2}
       },
 
     "target_values":{
