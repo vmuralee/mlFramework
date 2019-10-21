@@ -1,6 +1,6 @@
 {
     "path": "/nfs/dust/cms/user/klundert/HiggsCPTauProject/DNNTuples/2019_5_3/CMSSW_9_4_9/src/HtautauCP_mutau/Inputs/NTuples_mt_Klundert_V10_TauSpinnerSamples2017", 
-    "outpath": "/nfs/dust/cms/user/klundert/HiggsCPTauProject/DNNTuples/2019_5_3/CMSSW_9_4_9/src/Outputs/2019_10_14",
+    "outpath": "/nfs/dust/cms/user/klundert/HiggsCPTauProject/DNNTuples/2019_5_3/CMSSW_9_4_9/src/Outputs/2019_10_15",
     "variables":{
         "mt": [
             "pt_2",
@@ -27,14 +27,14 @@
     },
     "lumi": 41.5,
       "class_weight":{
-        "ggh":     {"mt":3.6},
-        "qqh":     {"mt":76.2},
-        "ztt":     {"mt":89.5},
-        "zll":     {"mt":617.0},
-        "w":       {"mt":1156.9},
-        "tt":      {"mt":1.6},
-        "ss":      {"mt":8594.4},
-        "misc":    {"mt":19.8}
+        "ggh":     {"mt":7.5},
+        "qqh":     {"mt":36.6},
+        "ztt":     {"mt":75.2},
+        "zll":     {"mt":518.8},
+        "w":       {"mt":972.7},
+        "tt":      {"mt":1.3},
+        "ss":      {"mt":7226.3},
+        "misc":    {"mt":16.7}
       },
 
     "target_values":{
