@@ -1,6 +1,6 @@
 {
     "path": "/nfs/dust/cms/user/klundert/HiggsCPTauProject/DNNTuples/2019_5_3/CMSSW_9_4_9/src/HtautauCP_mutau/Inputs/NTuples_mt_Klundert_V12_OfficialSamples_NewNorm2017", 
-    "outpath": "/nfs/dust/cms/user/klundert/HiggsCPTauProject/DNNTuples/2019_5_3/CMSSW_9_4_9/src/Outputs/2019_11_8_UnfilteredTS",
+    "outpath": "/nfs/dust/cms/user/klundert/HiggsCPTauProject/DNNTuples/2019_5_3/CMSSW_9_4_9/src/Outputs/2019_11_8_Official_10KIts",
     "variables":{
         "mt": [
             "pt_2",
